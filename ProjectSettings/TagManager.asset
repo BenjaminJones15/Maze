@@ -7,6 +7,7 @@ TagManager:
   - easy
   - hard
   - body
+  - boulder
   layers:
   - Default
   - TransparentFX
