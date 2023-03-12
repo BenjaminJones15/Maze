@@ -1,0 +1,13 @@
+# Maze
+
+Boulder:
+update graphics, make boulder look better
+Add collision sound effect in Boulder.cs
+
+
+Starting:
+need to make hard lights turn off properly
+Need to give player torch
+
+Crawler:
+Add spawn noise
