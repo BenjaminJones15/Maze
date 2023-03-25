@@ -143,9 +143,9 @@ AnimatorStateTransition:
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
-  m_TransitionDuration: 1.2232089
-  m_TransitionOffset: 0.00000028610233
-  m_ExitTime: 3.064194
+  m_TransitionDuration: 1.2449255
+  m_TransitionOffset: 0
+  m_ExitTime: 11.06067
   m_HasExitTime: 1
   m_HasFixedDuration: 1
   m_InterruptionSource: 0
@@ -284,7 +284,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: crawler 1
+  m_Name: crawler 2
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: Move
@@ -564,7 +564,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 3611e6d2d1ba5e4428fed8ed26bd5a2a, type: 2}
+  m_Motion: {fileID: 7400000, guid: 0adfff3ad4f78c6459c847cc6f25b12b, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 

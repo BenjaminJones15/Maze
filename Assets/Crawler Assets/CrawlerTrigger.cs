@@ -14,7 +14,8 @@ public class CrawlerTrigger : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        CrawlerMove.SetTrigger("Move");
+        CrawlerMove.SetTrigger("Chase");
     }
 
     void OnTriggerEnter(Collider collision)
