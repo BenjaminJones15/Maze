@@ -16,7 +16,7 @@ Maybe update crawler 2 animation?
 Spikes:
 Add sound
 Hide button in grass
-Hide button behind lava
+Hide key behind lava, add lock
 Add decoy in grass
 Add decoy in lava
 Add planets or something?
