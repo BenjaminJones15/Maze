@@ -15,4 +15,9 @@ Maybe update crawler 2 animation?
 
 Spikes:
 Add sound
-Add way to solve spikes and then remove hidden walls
+Hide button in grass
+Hide button behind lava
+Add decoy in grass
+Add decoy in lava
+Add planets or something?
+Add decoy in planets
