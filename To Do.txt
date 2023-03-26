@@ -15,3 +15,4 @@ Maybe update crawler 2 animation?
 
 Spikes:
 Add sound
+Add way to solve spikes and then remove hidden walls
