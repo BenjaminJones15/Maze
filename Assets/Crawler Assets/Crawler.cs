@@ -21,17 +21,17 @@ public class Crawler : MonoBehaviour
     {
         if (collision.CompareTag("body"))
         {
-            audioSource.PlayOneShot(clip, volume);
-            CrawlerMove.SetTrigger("Attack");            
             StartCoroutine(waiter());
         }
     }
 
     IEnumerator waiter()
     {
+        CrawlerMove["Move 1"].speed = 0;
         CrawlerMove.SetTrigger("Attack");
-        yield return new WaitForSecondsRealtime(4);
-        Player.transform.position = Target.transform.position;
+        audioSource.PlayOneShot(clip, volume);
+        yield return new WaitForSecondsRealtime(3);
+        //Player.transform.position = Target.transform.position;
     }
 
     // Update is called once per frame

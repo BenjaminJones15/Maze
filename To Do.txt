@@ -4,6 +4,7 @@ Easter egg chocolates to collect, teleports you to boss room, etc? or plushy roo
 Boulder:
 update graphics, make boulder look better
 Add collision sound effect in Boulder.cs
+adjust trajectory
 
 
 Starting:
@@ -15,6 +16,7 @@ Add spawn noise
 Maybe update crawler 2 animation?
 Turn off player movement once caught in Crawler.cs
 Chase further if encountering second time, need variable?
+Stop crawler from moving after it encounters player.
 
 Spikes:
 Add sound
@@ -24,6 +26,8 @@ Check if collision works with body/hand or if tag needs to be changed.
 Check is spike spacing always allows player to be hit, adjust if needed.
 User has to take bird from spikes, and then place in bird bath, opens the door, play sound
 Need to check if spikes descend too fast for player to place bird in nest, bird goes faster?
+spikes don't kill you
+hidden walls can be phased through
 
 Hide key behind lava, add lock
 Add decoy elswhere. maybe under rocks, etc?
