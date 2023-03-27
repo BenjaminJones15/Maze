@@ -9,6 +9,7 @@ public class SpikesTrigger : MonoBehaviour
     public float volume=1f;
     public Animator SpikesMove1;
     public Animator SpikesMove2;
+    public Animator BirdMove = null;
     public GameObject Spikes1;
     public GameObject Spikes2;
     public GameObject Player;
@@ -35,6 +36,9 @@ public class SpikesTrigger : MonoBehaviour
             if(Wall2 != null) {
                 Wall2.GetComponent<MeshRenderer>().enabled = true;
                 Wall3.GetComponent<MeshRenderer>().enabled = true;
+            }
+            if(BirdMove != null) {
+                BirdMove.SetTrigger("Descend");
             }
         }
     }

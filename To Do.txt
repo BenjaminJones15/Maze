@@ -1,4 +1,5 @@
 # Maze
+Easter egg chocolates to collect, teleports you to boss room, etc? or plushy room
 
 Boulder:
 update graphics, make boulder look better
@@ -12,12 +13,20 @@ Need to give player torch
 Crawler:
 Add spawn noise
 Maybe update crawler 2 animation?
+Turn off player movement once caught in Crawler.cs
+Chase further if encountering second time, need variable?
 
 Spikes:
 Add sound
-Hide button in grass
+Check if decoy are right size
+Add sound to switch - bird is word
+Check if collision works with body/hand or if tag needs to be changed.
+Check is spike spacing always allows player to be hit, adjust if needed.
+User has to take bird from spikes, and then place in bird bath, opens the door, play sound
+Need to check if spikes descend too fast for player to place bird in nest, bird goes faster?
+
 Hide key behind lava, add lock
-Add decoy in grass
-Add decoy in lava
-Add planets or something?
+Add decoy elswhere. maybe under rocks, etc?
+
 Add decoy in planets
+Button somewhere on one of the planets?
