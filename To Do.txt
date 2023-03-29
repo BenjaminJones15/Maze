@@ -16,17 +16,18 @@ Add spawn noise
 Maybe update crawler 2 animation?
 Turn off player movement once caught in Crawler.cs
 Chase further if encountering second time, need variable?
-Stop crawler from moving after it encounters player.
+Need to adjust crawler position so appropriate distance from player.
 
 Spikes:
 Add sound
 Check if decoy are right size
 Add sound to switch - bird is word
 Check if collision works with body/hand or if tag needs to be changed.
-Check is spike spacing always allows player to be hit, adjust if needed.
+Adjust spike spacing, 2 or 4 per square. 
 User has to take bird from spikes, and then place in bird bath, opens the door, play sound
 Need to check if spikes descend too fast for player to place bird in nest, bird goes faster?
 spikes don't kill you
+adjust spike collisions too.
 hidden walls can be phased through
 
 Hide key behind lava, add lock

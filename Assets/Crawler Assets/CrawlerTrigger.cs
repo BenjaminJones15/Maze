@@ -33,7 +33,7 @@ public class CrawlerTrigger : MonoBehaviour
         CrawlerMove.SetTrigger("Move");
         CrawlerMove.SetTrigger("Chase");
         yield return new WaitForSecondsRealtime(5);
-        Crawler.GetComponent<SkinnedMeshRenderer>().enabled = false;
+        //Crawler.GetComponent<SkinnedMeshRenderer>().enabled = false;
     }
 
     // Update is called once per frame
