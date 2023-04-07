@@ -6,6 +6,7 @@ public class Crawler : MonoBehaviour
 {
     public GameObject Player;
     public Transform Target;
+    public GameObject Teleport;
     public GameObject CrawlerObj;
     public Animator CrawlerMove;
     public GameObject Attack;
@@ -19,12 +20,6 @@ public class Crawler : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        CrawlerObj.GetComponent<SkinnedMeshRenderer>().enabled = false;
-        temp = Player.transform.position;
-        //temp.x = temp.x + 2;
-        Attack.transform.position = Player.transform.position;
-        AttackView.GetComponent<SkinnedMeshRenderer>().enabled = true;
-        CrawlerAttack.SetTrigger("Attack");
         
     }
 
@@ -37,16 +32,17 @@ public class Crawler : MonoBehaviour
     }
 
     IEnumerator waiter()
-    { 
+    {
+        Teleport.GetComponent<MeshRenderer>().enabled = false;
         CrawlerObj.GetComponent<SkinnedMeshRenderer>().enabled = false;
         temp = Player.transform.position;
-        //temp.x = temp.x + 2;
-        Attack.transform.position = Player.transform.position;
+        temp.x = temp.x + 1;
+        Attack.transform.position = temp;
         AttackView.GetComponent<SkinnedMeshRenderer>().enabled = true;
         CrawlerAttack.SetTrigger("Attack");
-        //audioSource.PlayOneShot(clip, volume);
+        audioSource.PlayOneShot(clip, volume);
         yield return new WaitForSecondsRealtime(3);
-        //Player.transform.position = Target.transform.position;
+        Player.transform.position = Target.transform.position;
     }
 
     // Update is called once per frame

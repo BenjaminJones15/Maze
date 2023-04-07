@@ -14,9 +14,6 @@ Need to give player torch
 Crawler:
 Add spawn noise
 Maybe update crawler 2 animation?
-Turn off player movement once caught in Crawler.cs
-Chase further if encountering second time, need variable?
-Need to adjust crawler position so appropriate distance from player.
 
 Spikes:
 Add sound
