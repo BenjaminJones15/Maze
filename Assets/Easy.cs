@@ -27,23 +27,23 @@ public class Easy : MonoBehaviour
             int randint = rnd.Next(1, 6);        //teleports player to random area
             if (randint == 1)
             {
-                Player.transform.position = Target5.transform.position;
+                Player.transform.position = Target2.transform.position;
             }
             else if (randint == 2)
             {
-                Player.transform.position = Target5.transform.position;
+                Player.transform.position = Target2.transform.position;
             }
             else if (randint == 3)
             {
-                Player.transform.position = Target5.transform.position;
+                Player.transform.position = Target2.transform.position;
             }
             else if (randint == 4)
             {
-                Player.transform.position = Target5.transform.position;
+                Player.transform.position = Target2.transform.position;
             }
             else if (randint == 5)
             {
-                Player.transform.position = Target5.transform.position;
+                Player.transform.position = Target2.transform.position;
             }
         }
     }
