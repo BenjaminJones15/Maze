@@ -35,9 +35,12 @@ public class SpikesTrigger : MonoBehaviour
             }
 
             Wall1.GetComponent<MeshRenderer>().enabled = true;
+            Wall1.GetComponent<TerrainCollider>().enabled = true;
             if(Wall2 != null) {
                 Wall2.GetComponent<MeshRenderer>().enabled = true;
                 Wall3.GetComponent<MeshRenderer>().enabled = true;
+                Wall2.GetComponent<TerrainCollider>().enabled = true;
+                Wall3.GetComponent<TerrainCollider>().enabled = true;
             }
             if(BirdMove != null) {
                 BirdMove.SetTrigger("Descend");

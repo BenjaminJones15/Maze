@@ -7,8 +7,6 @@ public class Bird : MonoBehaviour
     public AudioSource audioSource;
     public AudioClip clip;
     public float volume=1f;
-    public Animator SpikeAnim1;
-    public Animator SpikeAnim2;
     public GameObject Wall;
 
     // Start is called before the first frame update
@@ -23,7 +21,6 @@ public class Bird : MonoBehaviour
         {
             audioSource.PlayOneShot(clip, volume);
             Wall.GetComponent<MeshRenderer>().enabled = false;
-            //SpikeAnim1.SetTrigger("Wrong");
         }
     }
 

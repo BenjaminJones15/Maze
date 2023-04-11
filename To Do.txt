@@ -17,19 +17,21 @@ Maybe update crawler 2 animation?
 
 Spikes:
 Add sound
-Check if decoy are right size
-Add sound to switch - bird is word
+Check if decoy are right size? what does this mean???
 Check if collision works with body/hand or if tag needs to be changed.
-Adjust spike spacing, 2 or 4 per square. 
-User has to take bird from spikes, and then place in bird bath, opens the door, play sound
 Need to check if spikes descend too fast for player to place bird in nest, bird goes faster?
 spikes don't kill you
 Increase collision box slightly for x and y
-Apply spike 1 changes to spikes 2 and 3
-hidden walls can be phased through
+check if hidden walls can still be phased through
+Check spikes positioning
+Reset spikes after 1 minute?
 
 Hide key behind lava, add lock
 Add decoy elswhere. maybe under rocks, etc?
 
 Add decoy in planets
 Button somewhere on one of the planets?
+
+Death:
+reset spikes immediately
+reset crawler immediately
