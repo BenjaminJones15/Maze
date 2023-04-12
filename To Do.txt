@@ -23,11 +23,11 @@ spikes don't kill you
 Increase collision box slightly for x and y
 check if hidden walls can still be phased through
 Check spikes positioning
-Reset spikes after 1 minute?
+Reset spikes after 1 minute - need to reset bird, planets, etc
+Check if push button works with 2 waits
 
-Change floor texture to rocky upon entry
 May need to turn off lock mesh collider
-Cover other walls with rocks/lava?
+Add all items to script etc, make sure all colliders are in place
 Add decoy elswhere. maybe under rocks, etc?
 
 Add decoy in planets

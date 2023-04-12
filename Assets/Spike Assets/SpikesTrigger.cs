@@ -13,6 +13,16 @@ public class SpikesTrigger : MonoBehaviour
     public GameObject Lock1;
     public GameObject Lock2;
     public GameObject Lock3;
+    public GameObject Lava1;
+    public GameObject Lava2;
+    public GameObject RockWall1;
+    public GameObject RockWall2;
+    public GameObject RockFloor;
+    public GameObject Key;
+    public GameObject Stone1;
+    public GameObject Stone2;
+    public GameObject Stone3;
+    public GameObject Stone4;
     public GameObject Player;
     public GameObject Wall1;
     public GameObject Wall2 = null;
@@ -55,6 +65,20 @@ public class SpikesTrigger : MonoBehaviour
                 Lock1.GetComponent<MeshRenderer>().enabled = true;
                 Lock2.GetComponent<MeshRenderer>().enabled = true;
                 Lock3.GetComponent<MeshRenderer>().enabled = true;
+                Lava1.GetComponent<MeshRenderer>().enabled = true;
+                Lava2.GetComponent<MeshRenderer>().enabled = true;
+                RockWall1.GetComponent<MeshRenderer>().enabled = true;
+                RockWall2.GetComponent<MeshRenderer>().enabled = true;
+                RockFloor.GetComponent<MeshRenderer>().enabled = true;
+                Key.GetComponent<MeshRenderer>().enabled = true;
+                Stone1.GetComponent<MeshRenderer>().enabled = true;
+                Stone2.GetComponent<MeshRenderer>().enabled = true;
+                Stone3.GetComponent<MeshRenderer>().enabled = true;
+                Stone4.GetComponent<MeshRenderer>().enabled = true;
+                Stone1.GetComponent<MeshCollider>().enabled = true;
+                Stone2.GetComponent<MeshCollider>().enabled = true;
+                Stone3.GetComponent<MeshCollider>().enabled = true;
+                Stone4.GetComponent<MeshCollider>().enabled = true;
             }
         }
     }
