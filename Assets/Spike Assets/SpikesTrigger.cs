@@ -10,6 +10,9 @@ public class SpikesTrigger : MonoBehaviour
     public Animator SpikesMove;
     public GameObject Spikes;
     public Animator BirdMove;
+    public GameObject Lock1;
+    public GameObject Lock2;
+    public GameObject Lock3;
     public GameObject Player;
     public GameObject Wall1;
     public GameObject Wall2 = null;
@@ -36,14 +39,22 @@ public class SpikesTrigger : MonoBehaviour
 
             Wall1.GetComponent<MeshRenderer>().enabled = true;
             Wall1.GetComponent<TerrainCollider>().enabled = true;
+            Wall1.GetComponent<BoxCollider>().enabled = true;
             if(Wall2 != null) {
                 Wall2.GetComponent<MeshRenderer>().enabled = true;
                 Wall3.GetComponent<MeshRenderer>().enabled = true;
                 Wall2.GetComponent<TerrainCollider>().enabled = true;
                 Wall3.GetComponent<TerrainCollider>().enabled = true;
+                Wall2.GetComponent<BoxCollider>().enabled = true;
+                Wall3.GetComponent<BoxCollider>().enabled = true;
             }
             if(BirdMove != null) {
                 BirdMove.SetTrigger("Descend");
+            }
+            if(Lock1 != null){
+                Lock1.GetComponent<MeshRenderer>().enabled = true;
+                Lock2.GetComponent<MeshRenderer>().enabled = true;
+                Lock3.GetComponent<MeshRenderer>().enabled = true;
             }
         }
     }

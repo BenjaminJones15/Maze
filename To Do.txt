@@ -1,5 +1,4 @@
 # Maze
-Easter egg chocolates to collect, teleports you to boss room, etc? or plushy room
 
 Boulder:
 update graphics, make boulder look better
@@ -26,7 +25,9 @@ check if hidden walls can still be phased through
 Check spikes positioning
 Reset spikes after 1 minute?
 
-Hide key behind lava, add lock
+Change floor texture to rocky upon entry
+May need to turn off lock mesh collider
+Cover other walls with rocks/lava?
 Add decoy elswhere. maybe under rocks, etc?
 
 Add decoy in planets
@@ -35,3 +36,9 @@ Button somewhere on one of the planets?
 Death:
 reset spikes immediately
 reset crawler immediately
+
+Archery
+Bells
+Exit upon all bells
+Falling Floors
+Spot the difference

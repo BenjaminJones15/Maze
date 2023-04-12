@@ -9,6 +9,7 @@ TagManager:
   - body
   - boulder
   - bird
+  - key
   layers:
   - Default
   - TransparentFX
