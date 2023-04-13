@@ -18,6 +18,8 @@ Spikes:
 Add sound
 Check if decoy are right size? what does this mean???
 Check if collision works with body/hand or if tag needs to be changed.
+Need to add rigidbodys to everything
+
 Need to check if spikes descend too fast for player to place bird in nest, bird goes faster?
 spikes don't kill you
 Increase collision box slightly for x and y
@@ -36,6 +38,9 @@ Button somewhere on one of the planets?
 Death:
 reset spikes immediately
 reset crawler immediately
+
+Test Spike 1
+Test Spike 3
 
 Archery
 Bells

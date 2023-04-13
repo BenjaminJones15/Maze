@@ -7,6 +7,7 @@ public class PushButton : MonoBehaviour
     public Animator SpikesMove;
     public Animator BirdAnim;
     public GameObject Button;
+    public GameObject Text;
 
     // Start is called before the first frame update
     void Start()
@@ -30,8 +31,13 @@ public class PushButton : MonoBehaviour
         SpikesMove.speed = 1;
         BirdAnim.speed = 1;
         Button.GetComponent<MeshRenderer>().enabled = false;
+        Button.GetComponent<MeshCollider>().enabled = false;
+        Text.GetComponent<MeshRenderer>().enabled = false;
         yield return new WaitForSecondsRealtime(10);
         Button.GetComponent<MeshRenderer>().enabled = true;
+        Text.GetComponent<MeshRenderer>().enabled = true;
+        Button.GetComponent<MeshCollider>().enabled = true;
+
 
     }
 
