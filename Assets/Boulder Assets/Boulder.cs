@@ -6,6 +6,9 @@ public class Boulder : MonoBehaviour
 {
     public GameObject Player;
     public Transform Target;
+    public AudioSource audioSource;
+    public AudioClip clip;
+    public float volume = 1f;
 
 
     // Start is called before the first frame update
@@ -19,7 +22,7 @@ public class Boulder : MonoBehaviour
         if (collision.CompareTag("body"))
         {
             Player.transform.position = Target.transform.position;
-            //need sound effects
+            audioSource.PlayOneShot(clip, volume);
         }
     }
 
