@@ -17,16 +17,18 @@ Maybe update crawler 2 animation?
 Spikes:
 Add sound
 Check if decoy are right size? what does this mean???
-Check if collision works with body/hand or if tag needs to be changed.
 Need to add rigidbodys to everything
 
-Need to check if spikes descend too fast for player to place bird in nest, bird goes faster?
-spikes don't kill you
-Increase collision box slightly for x and y
-check if hidden walls can still be phased through
+spikes don't kill you? check
+Increase collision box slightly for x and y? use box collider if needed
 Check spikes positioning
 Reset spikes after 1 minute - need to reset bird, planets, etc
-Check if push button works with 2 waits
+Check if push button works when using multiple times, or only allow use once?
+
+Need to make sure bird is working
+Need to resize broomstick
+Need to check decoy switch is working
+Button isn't working
 
 May need to turn off lock mesh collider
 Add all items to script etc, make sure all colliders are in place
