@@ -355,6 +355,7 @@ GameObject:
   - component: {fileID: 7863398}
   - component: {fileID: 7863397}
   - component: {fileID: 7863396}
+  - component: {fileID: 7863401}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -470,6 +471,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7863394}
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &7863401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7863394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!1 &8429756
 GameObject:
   m_ObjectHideFlags: 0
@@ -1753,6 +1771,7 @@ GameObject:
   - component: {fileID: 44959198}
   - component: {fileID: 44959197}
   - component: {fileID: 44959196}
+  - component: {fileID: 44959201}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -1868,6 +1887,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 44959194}
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &44959201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 44959194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!1001 &57787321
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2083,6 +2119,7 @@ GameObject:
   - component: {fileID: 61510396}
   - component: {fileID: 61510395}
   - component: {fileID: 61510394}
+  - component: {fileID: 61510399}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -2198,6 +2235,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 61510392}
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &61510399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 61510392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!1001 &63324815
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2859,6 +2913,7 @@ GameObject:
   - component: {fileID: 74470271}
   - component: {fileID: 74470270}
   - component: {fileID: 74470269}
+  - component: {fileID: 74470274}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -2974,6 +3029,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 74470267}
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &74470274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 74470267}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!1 &75209021
 GameObject:
   m_ObjectHideFlags: 0
@@ -4062,7 +4134,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1244477439256529723, guid: 1b12157dbb353394dab762b7244825b0, type: 3}
       propertyPath: m_Convex
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1244477439256529723, guid: 1b12157dbb353394dab762b7244825b0, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1244477439256529723, guid: 1b12157dbb353394dab762b7244825b0, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8595847522512024254, guid: 1b12157dbb353394dab762b7244825b0, type: 3}
       propertyPath: m_RootOrder
@@ -7476,7 +7556,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 558842538}
-  m_RootOrder: 5
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &249300812
 MeshCollider:
@@ -7665,6 +7745,7 @@ GameObject:
   - component: {fileID: 253713852}
   - component: {fileID: 253713851}
   - component: {fileID: 253713850}
+  - component: {fileID: 253713855}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -7780,6 +7861,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 253713848}
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &253713855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 253713848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!1 &253822936
 GameObject:
   m_ObjectHideFlags: 0
@@ -7903,6 +8001,7 @@ GameObject:
   - component: {fileID: 255051679}
   - component: {fileID: 255051678}
   - component: {fileID: 255051677}
+  - component: {fileID: 255051682}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -8018,6 +8117,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 255051675}
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &255051682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 255051675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!1 &266921575
 GameObject:
   m_ObjectHideFlags: 0
@@ -13093,6 +13209,7 @@ GameObject:
   - component: {fileID: 389588645}
   - component: {fileID: 389588644}
   - component: {fileID: 389588643}
+  - component: {fileID: 389588648}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -13208,6 +13325,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 389588641}
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &389588648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 389588641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!1 &391402944
 GameObject:
   m_ObjectHideFlags: 0
@@ -13429,6 +13563,7 @@ GameObject:
   - component: {fileID: 394638939}
   - component: {fileID: 394638938}
   - component: {fileID: 394638937}
+  - component: {fileID: 394638942}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -13544,6 +13679,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 394638935}
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &394638942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 394638935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!1 &396650152
 GameObject:
   m_ObjectHideFlags: 0
@@ -13667,6 +13819,7 @@ GameObject:
   - component: {fileID: 398413011}
   - component: {fileID: 398413010}
   - component: {fileID: 398413009}
+  - component: {fileID: 398413014}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -13782,6 +13935,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 398413007}
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &398413014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 398413007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!1 &399917192
 GameObject:
   m_ObjectHideFlags: 0
@@ -14341,6 +14511,7 @@ GameObject:
   - component: {fileID: 416204865}
   - component: {fileID: 416204864}
   - component: {fileID: 416204863}
+  - component: {fileID: 416204868}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -14456,6 +14627,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 416204861}
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &416204868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416204861}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!1 &419792262
 GameObject:
   m_ObjectHideFlags: 0
@@ -14978,6 +15166,7 @@ GameObject:
   - component: {fileID: 440393060}
   - component: {fileID: 440393059}
   - component: {fileID: 440393058}
+  - component: {fileID: 440393063}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -15093,6 +15282,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 440393056}
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &440393063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 440393056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!1 &448819552
 GameObject:
   m_ObjectHideFlags: 0
@@ -15486,6 +15692,7 @@ GameObject:
   - component: {fileID: 466022431}
   - component: {fileID: 466022430}
   - component: {fileID: 466022429}
+  - component: {fileID: 466022434}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -15601,6 +15808,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 466022427}
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &466022434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 466022427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!1 &470184652
 GameObject:
   m_ObjectHideFlags: 0
@@ -15724,6 +15948,7 @@ GameObject:
   - component: {fileID: 471849965}
   - component: {fileID: 471849964}
   - component: {fileID: 471849963}
+  - component: {fileID: 471849968}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -15839,6 +16064,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 471849961}
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &471849968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 471849961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!1 &473470037
 GameObject:
   m_ObjectHideFlags: 0
@@ -17719,6 +17961,7 @@ GameObject:
   - component: {fileID: 531919250}
   - component: {fileID: 531919249}
   - component: {fileID: 531919248}
+  - component: {fileID: 531919253}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -17834,6 +18077,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 531919246}
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &531919253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 531919246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!95 &536778203
 Animator:
   serializedVersion: 4
@@ -17986,6 +18246,7 @@ GameObject:
   - component: {fileID: 548236883}
   - component: {fileID: 548236882}
   - component: {fileID: 548236881}
+  - component: {fileID: 548236886}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -18101,6 +18362,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 548236879}
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &548236886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 548236879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!1 &556485801
 GameObject:
   m_ObjectHideFlags: 0
@@ -18459,11 +18737,11 @@ Transform:
   - {fileID: 1220346981}
   - {fileID: 861988609}
   - {fileID: 1035307536}
+  - {fileID: 249300811}
   - {fileID: 1111868844}
   - {fileID: 465589536}
-  - {fileID: 249300811}
-  - {fileID: 1771141434}
   - {fileID: 1783657692}
+  - {fileID: 1771141434}
   - {fileID: 1320004149}
   - {fileID: 1103370444}
   - {fileID: 1712433858}
@@ -19142,6 +19420,7 @@ GameObject:
   - component: {fileID: 585964202}
   - component: {fileID: 585964201}
   - component: {fileID: 585964200}
+  - component: {fileID: 585964205}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -19257,6 +19536,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 585964198}
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &585964205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 585964198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!1 &597040794
 GameObject:
   m_ObjectHideFlags: 0
@@ -19489,6 +19785,7 @@ GameObject:
   - component: {fileID: 604151558}
   - component: {fileID: 604151557}
   - component: {fileID: 604151556}
+  - component: {fileID: 604151561}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -19604,6 +19901,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 604151554}
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &604151561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 604151554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!1 &605174882
 GameObject:
   m_ObjectHideFlags: 0
@@ -19727,6 +20041,7 @@ GameObject:
   - component: {fileID: 605318909}
   - component: {fileID: 605318908}
   - component: {fileID: 605318907}
+  - component: {fileID: 605318912}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -19842,6 +20157,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 605318905}
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &605318912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 605318905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!1 &612151751
 GameObject:
   m_ObjectHideFlags: 0
@@ -20993,6 +21325,7 @@ GameObject:
   - component: {fileID: 667529197}
   - component: {fileID: 667529196}
   - component: {fileID: 667529195}
+  - component: {fileID: 667529200}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -21108,6 +21441,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 667529193}
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &667529200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 667529193}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!1 &668623386
 GameObject:
   m_ObjectHideFlags: 0
@@ -21329,6 +21679,7 @@ GameObject:
   - component: {fileID: 678651793}
   - component: {fileID: 678651792}
   - component: {fileID: 678651791}
+  - component: {fileID: 678651796}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -21444,6 +21795,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 678651789}
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &678651796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 678651789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!1001 &678822613
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23727,6 +24095,7 @@ GameObject:
   - component: {fileID: 733706171}
   - component: {fileID: 733706170}
   - component: {fileID: 733706169}
+  - component: {fileID: 733706174}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -23842,6 +24211,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 733706167}
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &733706174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 733706167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!1 &745118913
 GameObject:
   m_ObjectHideFlags: 0
@@ -25173,6 +25559,7 @@ GameObject:
   - component: {fileID: 785019120}
   - component: {fileID: 785019119}
   - component: {fileID: 785019118}
+  - component: {fileID: 785019123}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -25288,6 +25675,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 785019116}
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &785019123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 785019116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!1 &790374161
 GameObject:
   m_ObjectHideFlags: 0
@@ -26074,6 +26478,7 @@ GameObject:
   - component: {fileID: 806922522}
   - component: {fileID: 806922521}
   - component: {fileID: 806922520}
+  - component: {fileID: 806922525}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -26189,6 +26594,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 806922518}
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &806922525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 806922518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!1 &808453358
 GameObject:
   m_ObjectHideFlags: 0
@@ -26860,6 +27282,7 @@ GameObject:
   - component: {fileID: 834177262}
   - component: {fileID: 834177261}
   - component: {fileID: 834177260}
+  - component: {fileID: 834177265}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -26975,6 +27398,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 834177258}
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &834177265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 834177258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!1 &841700681
 GameObject:
   m_ObjectHideFlags: 0
@@ -27309,6 +27749,7 @@ GameObject:
   - component: {fileID: 864055985}
   - component: {fileID: 864055984}
   - component: {fileID: 864055983}
+  - component: {fileID: 864055988}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -27424,6 +27865,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 864055981}
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &864055988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 864055981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!1 &879673009
 GameObject:
   m_ObjectHideFlags: 0
@@ -28165,6 +28623,7 @@ GameObject:
   - component: {fileID: 903068584}
   - component: {fileID: 903068583}
   - component: {fileID: 903068582}
+  - component: {fileID: 903068587}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -28280,6 +28739,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 903068580}
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &903068587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 903068580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!1 &904933268
 GameObject:
   m_ObjectHideFlags: 0
@@ -28501,6 +28977,7 @@ GameObject:
   - component: {fileID: 909839005}
   - component: {fileID: 909839004}
   - component: {fileID: 909839003}
+  - component: {fileID: 909839008}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -28616,6 +29093,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 909839001}
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &909839008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 909839001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!1 &912029217
 GameObject:
   m_ObjectHideFlags: 0
@@ -29193,11 +29687,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 144230, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_TagString
-      value: Player
+      value: body
       objectReference: {fileID: 0}
     - target: {fileID: 160596, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_TagString
-      value: Player
+      value: body
       objectReference: {fileID: 0}
     - target: {fileID: 191996, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_TagString
@@ -30253,6 +30747,7 @@ GameObject:
   - component: {fileID: 951782639}
   - component: {fileID: 951782638}
   - component: {fileID: 951782637}
+  - component: {fileID: 951782642}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -30368,6 +30863,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 951782635}
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &951782642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 951782635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!1 &953838391
 GameObject:
   m_ObjectHideFlags: 0
@@ -31185,6 +31697,7 @@ GameObject:
   - component: {fileID: 981475641}
   - component: {fileID: 981475640}
   - component: {fileID: 981475639}
+  - component: {fileID: 981475644}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -31300,6 +31813,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 981475637}
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &981475644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 981475637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!1 &986275642
 GameObject:
   m_ObjectHideFlags: 0
@@ -31530,6 +32060,7 @@ GameObject:
   - component: {fileID: 992149106}
   - component: {fileID: 992149105}
   - component: {fileID: 992149104}
+  - component: {fileID: 992149109}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -31645,6 +32176,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 992149102}
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &992149109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 992149102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!1 &993335012
 GameObject:
   m_ObjectHideFlags: 0
@@ -31877,6 +32425,7 @@ GameObject:
   - component: {fileID: 1000798826}
   - component: {fileID: 1000798825}
   - component: {fileID: 1000798824}
+  - component: {fileID: 1000798829}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -31992,6 +32541,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1000798822}
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &1000798829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000798822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!1 &1002830758
 GameObject:
   m_ObjectHideFlags: 0
@@ -32006,6 +32572,7 @@ GameObject:
   - component: {fileID: 1002830762}
   - component: {fileID: 1002830761}
   - component: {fileID: 1002830760}
+  - component: {fileID: 1002830765}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -32121,6 +32688,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1002830758}
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &1002830765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1002830758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!1 &1002930704
 GameObject:
   m_ObjectHideFlags: 0
@@ -32353,6 +32937,7 @@ GameObject:
   - component: {fileID: 1021512362}
   - component: {fileID: 1021512361}
   - component: {fileID: 1021512360}
+  - component: {fileID: 1021512365}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -32468,6 +33053,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1021512358}
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &1021512365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021512358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!1 &1022873796
 GameObject:
   m_ObjectHideFlags: 0
@@ -33129,10 +33731,10 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1062278416}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: d93bc5bf0eeb6fb4eb9b30ceabe8430d, type: 3}
 --- !u!1 &1062278416 stripped
@@ -33156,22 +33758,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1062278419
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1062278416}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a0ae219721702f94c97ba268e954f2c3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PaperCrane: {fileID: 1062278416}
-  CraneAnim: {fileID: 0}
-  GrabCrane: {fileID: 0}
-  temp: {x: 0, y: 0, z: 0}
 --- !u!114 &1062278420
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33575,6 +34161,7 @@ GameObject:
   - component: {fileID: 1074437421}
   - component: {fileID: 1074437420}
   - component: {fileID: 1074437419}
+  - component: {fileID: 1074437424}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -33690,6 +34277,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1074437417}
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &1074437424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1074437417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!1 &1076876175
 GameObject:
   m_ObjectHideFlags: 0
@@ -34147,6 +34751,7 @@ GameObject:
   - component: {fileID: 1102268137}
   - component: {fileID: 1102268136}
   - component: {fileID: 1102268135}
+  - component: {fileID: 1102268140}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -34262,6 +34867,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1102268133}
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &1102268140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1102268133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!1 &1102951101
 GameObject:
   m_ObjectHideFlags: 0
@@ -35634,6 +36256,7 @@ GameObject:
   - component: {fileID: 1142307172}
   - component: {fileID: 1142307171}
   - component: {fileID: 1142307170}
+  - component: {fileID: 1142307175}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -35749,6 +36372,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1142307168}
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &1142307175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1142307168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!1 &1145272031
 GameObject:
   m_ObjectHideFlags: 0
@@ -35903,7 +36543,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1145721949}
   - component: {fileID: 1145721950}
-  - component: {fileID: 1145721951}
   m_Layer: 0
   m_Name: Spiky 1
   m_TagString: Untagged
@@ -35978,23 +36617,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &1145721951
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1145721948}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Player: {fileID: 930671716}
-  Target: {fileID: 294823508}
-  audioSource: {fileID: 1804316778}
-  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
-  volume: 1
 --- !u!1 &1148874383
 GameObject:
   m_ObjectHideFlags: 0
@@ -36118,6 +36740,7 @@ GameObject:
   - component: {fileID: 1154046293}
   - component: {fileID: 1154046292}
   - component: {fileID: 1154046291}
+  - component: {fileID: 1154046296}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -36233,6 +36856,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1154046289}
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &1154046296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1154046289}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!1 &1158735532
 GameObject:
   m_ObjectHideFlags: 0
@@ -36959,6 +37599,7 @@ GameObject:
   - component: {fileID: 1181402722}
   - component: {fileID: 1181402721}
   - component: {fileID: 1181402720}
+  - component: {fileID: 1181402725}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -37074,6 +37715,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1181402718}
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &1181402725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1181402718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!1 &1183992932
 GameObject:
   m_ObjectHideFlags: 0
@@ -38284,12 +38942,20 @@ PrefabInstance:
       value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4407747987311332, guid: 57b30364b5b0f4c4692a46782c14d2bd, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4407747987311332, guid: 57b30364b5b0f4c4692a46782c14d2bd, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.5
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4407747987311332, guid: 57b30364b5b0f4c4692a46782c14d2bd, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 4407747987311332, guid: 57b30364b5b0f4c4692a46782c14d2bd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -24.18
+      value: -24.379
       objectReference: {fileID: 0}
     - target: {fileID: 4407747987311332, guid: 57b30364b5b0f4c4692a46782c14d2bd, type: 3}
       propertyPath: m_LocalPosition.y
@@ -38297,7 +38963,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4407747987311332, guid: 57b30364b5b0f4c4692a46782c14d2bd, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 6.111
+      value: 6.387
       objectReference: {fileID: 0}
     - target: {fileID: 4407747987311332, guid: 57b30364b5b0f4c4692a46782c14d2bd, type: 3}
       propertyPath: m_LocalRotation.w
@@ -39128,6 +39794,7 @@ GameObject:
   - component: {fileID: 1238927699}
   - component: {fileID: 1238927698}
   - component: {fileID: 1238927697}
+  - component: {fileID: 1238927702}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -39243,6 +39910,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1238927695}
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &1238927702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1238927695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!1 &1248225095
 GameObject:
   m_ObjectHideFlags: 0
@@ -39429,6 +40113,7 @@ GameObject:
   - component: {fileID: 1266007345}
   - component: {fileID: 1266007344}
   - component: {fileID: 1266007343}
+  - component: {fileID: 1266007348}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -39544,6 +40229,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1266007341}
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &1266007348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1266007341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!1 &1266244420
 GameObject:
   m_ObjectHideFlags: 0
@@ -39558,6 +40260,7 @@ GameObject:
   - component: {fileID: 1266244424}
   - component: {fileID: 1266244423}
   - component: {fileID: 1266244422}
+  - component: {fileID: 1266244427}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -39673,6 +40376,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1266244420}
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &1266244427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1266244420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!1 &1268629051
 GameObject:
   m_ObjectHideFlags: 0
@@ -40350,6 +41070,7 @@ GameObject:
   - component: {fileID: 1290225082}
   - component: {fileID: 1290225081}
   - component: {fileID: 1290225080}
+  - component: {fileID: 1290225085}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -40465,6 +41186,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1290225078}
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &1290225085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1290225078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!1 &1297229937
 GameObject:
   m_ObjectHideFlags: 0
@@ -42821,6 +43559,7 @@ GameObject:
   - component: {fileID: 1365485625}
   - component: {fileID: 1365485624}
   - component: {fileID: 1365485623}
+  - component: {fileID: 1365485628}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -42936,6 +43675,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1365485621}
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &1365485628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1365485621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!1 &1365695528
 GameObject:
   m_ObjectHideFlags: 0
@@ -42950,6 +43706,7 @@ GameObject:
   - component: {fileID: 1365695532}
   - component: {fileID: 1365695531}
   - component: {fileID: 1365695530}
+  - component: {fileID: 1365695535}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -43065,6 +43822,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1365695528}
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &1365695535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1365695528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!1 &1366191349
 GameObject:
   m_ObjectHideFlags: 0
@@ -45017,6 +45791,7 @@ GameObject:
   - component: {fileID: 1434985305}
   - component: {fileID: 1434985304}
   - component: {fileID: 1434985303}
+  - component: {fileID: 1434985308}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -45132,6 +45907,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1434985301}
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &1434985308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1434985301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!1 &1438939809
 GameObject:
   m_ObjectHideFlags: 0
@@ -45146,6 +45938,7 @@ GameObject:
   - component: {fileID: 1438939813}
   - component: {fileID: 1438939812}
   - component: {fileID: 1438939811}
+  - component: {fileID: 1438939816}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -45261,6 +46054,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1438939809}
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &1438939816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1438939809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!1 &1440649297
 GameObject:
   m_ObjectHideFlags: 0
@@ -46987,6 +47797,7 @@ GameObject:
   - component: {fileID: 1502629500}
   - component: {fileID: 1502629499}
   - component: {fileID: 1502629498}
+  - component: {fileID: 1502629503}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -47102,6 +47913,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1502629496}
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &1502629503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1502629496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!1 &1503157291
 GameObject:
   m_ObjectHideFlags: 0
@@ -47443,6 +48271,7 @@ GameObject:
   - component: {fileID: 1531903190}
   - component: {fileID: 1531903189}
   - component: {fileID: 1531903188}
+  - component: {fileID: 1531903193}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -47558,6 +48387,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1531903186}
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &1531903193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1531903186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!1 &1532100677
 GameObject:
   m_ObjectHideFlags: 0
@@ -47892,6 +48738,7 @@ GameObject:
   - component: {fileID: 1537505169}
   - component: {fileID: 1537505168}
   - component: {fileID: 1537505167}
+  - component: {fileID: 1537505172}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -48007,6 +48854,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1537505165}
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &1537505172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1537505165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!1 &1538350176
 GameObject:
   m_ObjectHideFlags: 0
@@ -48893,6 +49757,7 @@ GameObject:
   - component: {fileID: 1565072600}
   - component: {fileID: 1565072599}
   - component: {fileID: 1565072598}
+  - component: {fileID: 1565072603}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -49008,6 +49873,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1565072596}
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &1565072603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1565072596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!1 &1567910748
 GameObject:
   m_ObjectHideFlags: 0
@@ -49863,6 +50745,7 @@ GameObject:
   - component: {fileID: 1589727752}
   - component: {fileID: 1589727751}
   - component: {fileID: 1589727750}
+  - component: {fileID: 1589727755}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -49978,6 +50861,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1589727748}
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &1589727755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1589727748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!1 &1593238100
 GameObject:
   m_ObjectHideFlags: 0
@@ -50554,6 +51454,87 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 3777133010842643675, guid: 93e76fb15ea8c4a8ab92ae6a7c83a4f0, type: 3}
+--- !u!114 &1608773477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1608773473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b93b6a877adcbf94c89a9d6e0c0e844d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activateActionSetOnAttach:
+    actionSetPath: 
+  hideHandOnAttach: 1
+  hideSkeletonOnAttach: 0
+  hideControllerOnAttach: 0
+  handAnimationOnPickup: 0
+  setRangeOfMotionOnPickup: -1
+  useHandObjectAttachmentPoint: 1
+  attachEaseIn: 0
+  snapAttachEaseInCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  snapAttachEaseInTime: 0.15
+  snapAttachEaseInCompleted: 0
+  skeletonPoser: {fileID: 0}
+  handFollowTransform: 1
+  highlightOnHover: 1
+  hideHighlight: []
+  hoverPriority: 0
+--- !u!54 &1608773478
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1608773473}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &1608773479
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1608773473}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.1, y: 0.1, z: 0.1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1609894210
 GameObject:
   m_ObjectHideFlags: 0
@@ -52408,6 +53389,7 @@ GameObject:
   - component: {fileID: 1640221111}
   - component: {fileID: 1640221110}
   - component: {fileID: 1640221109}
+  - component: {fileID: 1640221114}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -52523,6 +53505,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1640221107}
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &1640221114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640221107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!1 &1640583867
 GameObject:
   m_ObjectHideFlags: 0
@@ -55027,6 +56026,7 @@ GameObject:
   - component: {fileID: 1700703344}
   - component: {fileID: 1700703343}
   - component: {fileID: 1700703342}
+  - component: {fileID: 1700703347}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -55142,6 +56142,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1700703340}
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &1700703347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1700703340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!1 &1703125352
 GameObject:
   m_ObjectHideFlags: 0
@@ -55374,6 +56391,7 @@ GameObject:
   - component: {fileID: 1708006975}
   - component: {fileID: 1708006974}
   - component: {fileID: 1708006973}
+  - component: {fileID: 1708006978}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -55489,6 +56507,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1708006971}
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &1708006978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1708006971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!1 &1712433857
 GameObject:
   m_ObjectHideFlags: 0
@@ -57073,6 +58108,7 @@ GameObject:
   - component: {fileID: 1748501088}
   - component: {fileID: 1748501087}
   - component: {fileID: 1748501086}
+  - component: {fileID: 1748501091}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -57188,6 +58224,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1748501084}
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &1748501091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1748501084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!1 &1754205971
 GameObject:
   m_ObjectHideFlags: 0
@@ -57964,6 +59017,7 @@ GameObject:
   - component: {fileID: 1777197205}
   - component: {fileID: 1777197204}
   - component: {fileID: 1777197203}
+  - component: {fileID: 1777197208}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -58079,6 +59133,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1777197201}
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &1777197208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1777197201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!1 &1781090537
 GameObject:
   m_ObjectHideFlags: 0
@@ -58220,7 +59291,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 558842538}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 450, y: -90.00101, z: 89.998}
 --- !u!23 &1783657694
 MeshRenderer:
@@ -58300,6 +59371,7 @@ GameObject:
   - component: {fileID: 1790119265}
   - component: {fileID: 1790119264}
   - component: {fileID: 1790119263}
+  - component: {fileID: 1790119268}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -58415,6 +59487,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1790119261}
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &1790119268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790119261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!1 &1790292820
 GameObject:
   m_ObjectHideFlags: 0
@@ -60548,6 +61637,7 @@ GameObject:
   - component: {fileID: 1873007848}
   - component: {fileID: 1873007847}
   - component: {fileID: 1873007846}
+  - component: {fileID: 1873007851}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -60663,6 +61753,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1873007844}
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &1873007851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1873007844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!1 &1873451314
 GameObject:
   m_ObjectHideFlags: 0
@@ -61718,6 +62825,7 @@ GameObject:
   - component: {fileID: 1910024477}
   - component: {fileID: 1910024476}
   - component: {fileID: 1910024475}
+  - component: {fileID: 1910024480}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -61833,6 +62941,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1910024473}
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &1910024480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1910024473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!1 &1910963968
 GameObject:
   m_ObjectHideFlags: 0
@@ -63301,6 +64426,7 @@ GameObject:
   - component: {fileID: 1979333501}
   - component: {fileID: 1979333500}
   - component: {fileID: 1979333499}
+  - component: {fileID: 1979333504}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -63416,6 +64542,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1979333497}
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &1979333504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1979333497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!95 &1987509354
 Animator:
   serializedVersion: 4
@@ -63777,6 +64920,8 @@ GameObject:
   - component: {fileID: 1993011715}
   - component: {fileID: 1993011716}
   - component: {fileID: 1993011717}
+  - component: {fileID: 1993011718}
+  - component: {fileID: 1993011719}
   m_Layer: 0
   m_Name: Push Button
   m_TagString: Untagged
@@ -63863,9 +65008,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SpikesMove: {fileID: 1145721950}
-  BirdAnim: {fileID: 0}
   Button: {fileID: 1993011710}
-  Text: {fileID: 0}
+  Text: {fileID: 1194555712}
 --- !u!64 &1993011716
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -63896,6 +65040,71 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &1993011718
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1993011710}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000001, y: 3, z: 1.0000002}
+  m_Center: {x: 0.000000059604645, y: 0.000030517578, z: -0.00000008940697}
+--- !u!114 &1993011719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1993011710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b93b6a877adcbf94c89a9d6e0c0e844d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activateActionSetOnAttach:
+    actionSetPath: 
+  hideHandOnAttach: 1
+  hideSkeletonOnAttach: 0
+  hideControllerOnAttach: 0
+  handAnimationOnPickup: 0
+  setRangeOfMotionOnPickup: -1
+  useHandObjectAttachmentPoint: 1
+  attachEaseIn: 0
+  snapAttachEaseInCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  snapAttachEaseInTime: 0.15
+  snapAttachEaseInCompleted: 0
+  skeletonPoser: {fileID: 0}
+  handFollowTransform: 1
+  highlightOnHover: 1
+  hideHighlight: []
+  hoverPriority: 0
 --- !u!1 &1993065263
 GameObject:
   m_ObjectHideFlags: 0
@@ -63910,6 +65119,7 @@ GameObject:
   - component: {fileID: 1993065267}
   - component: {fileID: 1993065266}
   - component: {fileID: 1993065265}
+  - component: {fileID: 1993065270}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -64025,6 +65235,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1993065263}
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &1993065270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1993065263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!1 &1993769841
 GameObject:
   m_ObjectHideFlags: 0
@@ -64633,6 +65860,7 @@ GameObject:
   - component: {fileID: 2036599742}
   - component: {fileID: 2036599741}
   - component: {fileID: 2036599740}
+  - component: {fileID: 2036599745}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -64748,6 +65976,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2036599738}
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &2036599745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2036599738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!95 &2039423650
 Animator:
   serializedVersion: 4
@@ -64782,6 +66027,7 @@ GameObject:
   - component: {fileID: 2041609082}
   - component: {fileID: 2041609081}
   - component: {fileID: 2041609080}
+  - component: {fileID: 2041609085}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -64897,6 +66143,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2041609078}
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &2041609085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2041609078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!1 &2042633737
 GameObject:
   m_ObjectHideFlags: 0
@@ -64911,6 +66174,7 @@ GameObject:
   - component: {fileID: 2042633741}
   - component: {fileID: 2042633740}
   - component: {fileID: 2042633739}
+  - component: {fileID: 2042633744}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -65026,6 +66290,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2042633737}
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &2042633744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2042633737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!1 &2049068470
 GameObject:
   m_ObjectHideFlags: 0
@@ -68746,6 +70027,7 @@ GameObject:
   - component: {fileID: 7334161888323991063}
   - component: {fileID: 7334161888323991064}
   - component: {fileID: 7334161888323991066}
+  - component: {fileID: 7334161888323991067}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -68767,6 +70049,7 @@ GameObject:
   - component: {fileID: 7334161888199801375}
   - component: {fileID: 7334161888199801376}
   - component: {fileID: 7334161888199801378}
+  - component: {fileID: 7334161888199801379}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -68788,6 +70071,7 @@ GameObject:
   - component: {fileID: 7334161888202738906}
   - component: {fileID: 7334161888202738907}
   - component: {fileID: 7334161888202738909}
+  - component: {fileID: 7334161888202738910}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -68809,6 +70093,7 @@ GameObject:
   - component: {fileID: 7334161888205784295}
   - component: {fileID: 7334161888205784296}
   - component: {fileID: 7334161888205784298}
+  - component: {fileID: 7334161888205784299}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -68830,6 +70115,7 @@ GameObject:
   - component: {fileID: 7334161888144792129}
   - component: {fileID: 7334161888144792130}
   - component: {fileID: 7334161888144792132}
+  - component: {fileID: 7334161888144792133}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -68851,6 +70137,7 @@ GameObject:
   - component: {fileID: 7334161888019847048}
   - component: {fileID: 7334161888019847049}
   - component: {fileID: 7334161888019847051}
+  - component: {fileID: 7334161888019847052}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -68872,6 +70159,7 @@ GameObject:
   - component: {fileID: 7334161887867970134}
   - component: {fileID: 7334161887867970135}
   - component: {fileID: 7334161887867970137}
+  - component: {fileID: 7334161887867970138}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -68893,6 +70181,7 @@ GameObject:
   - component: {fileID: 7334161887851650884}
   - component: {fileID: 7334161887851650885}
   - component: {fileID: 7334161887851650887}
+  - component: {fileID: 7334161887851650888}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -68914,6 +70203,7 @@ GameObject:
   - component: {fileID: 7334161887852884015}
   - component: {fileID: 7334161887852884016}
   - component: {fileID: 7334161887852884018}
+  - component: {fileID: 7334161887852884019}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -68935,6 +70225,7 @@ GameObject:
   - component: {fileID: 7334161887835255821}
   - component: {fileID: 7334161887835255822}
   - component: {fileID: 7334161887835255824}
+  - component: {fileID: 7334161887835255825}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -68956,6 +70247,7 @@ GameObject:
   - component: {fileID: 7334161887822045246}
   - component: {fileID: 7334161887822045247}
   - component: {fileID: 7334161887822045249}
+  - component: {fileID: 7334161887822045250}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -68977,6 +70269,7 @@ GameObject:
   - component: {fileID: 7334161887818840284}
   - component: {fileID: 7334161887818840285}
   - component: {fileID: 7334161887818840287}
+  - component: {fileID: 7334161887818840288}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -68998,6 +70291,7 @@ GameObject:
   - component: {fileID: 7334161887875217269}
   - component: {fileID: 7334161887875217270}
   - component: {fileID: 7334161887875217272}
+  - component: {fileID: 7334161887875217273}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -69019,6 +70313,7 @@ GameObject:
   - component: {fileID: 7334161888862810958}
   - component: {fileID: 7334161888862810959}
   - component: {fileID: 7334161888862810961}
+  - component: {fileID: 7334161888862810962}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -69040,6 +70335,7 @@ GameObject:
   - component: {fileID: 7334161888480641758}
   - component: {fileID: 7334161888480641759}
   - component: {fileID: 7334161888480641761}
+  - component: {fileID: 7334161888480641762}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -69061,6 +70357,7 @@ GameObject:
   - component: {fileID: 7334161888477690753}
   - component: {fileID: 7334161888477690754}
   - component: {fileID: 7334161888477690756}
+  - component: {fileID: 7334161888477690757}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -69082,6 +70379,7 @@ GameObject:
   - component: {fileID: 7334161889290604196}
   - component: {fileID: 7334161889290604197}
   - component: {fileID: 7334161889290604199}
+  - component: {fileID: 7334161889290604200}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -69103,6 +70401,7 @@ GameObject:
   - component: {fileID: 7334161889166571591}
   - component: {fileID: 7334161889166571592}
   - component: {fileID: 7334161889166571594}
+  - component: {fileID: 7334161889166571595}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -69124,6 +70423,7 @@ GameObject:
   - component: {fileID: 7334161889238200779}
   - component: {fileID: 7334161889238200780}
   - component: {fileID: 7334161889238200782}
+  - component: {fileID: 7334161889238200783}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -69145,6 +70445,7 @@ GameObject:
   - component: {fileID: 7334161889238206820}
   - component: {fileID: 7334161889238206821}
   - component: {fileID: 7334161889238206823}
+  - component: {fileID: 7334161889238206824}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -69166,6 +70467,7 @@ GameObject:
   - component: {fileID: 7334161889120866381}
   - component: {fileID: 7334161889120866382}
   - component: {fileID: 7334161889120866384}
+  - component: {fileID: 7334161889120866385}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -69187,6 +70489,7 @@ GameObject:
   - component: {fileID: 7334161889130873085}
   - component: {fileID: 7334161889130873086}
   - component: {fileID: 7334161889130873088}
+  - component: {fileID: 7334161889130873089}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -69208,6 +70511,7 @@ GameObject:
   - component: {fileID: 7334161888961803652}
   - component: {fileID: 7334161888961803653}
   - component: {fileID: 7334161888961803655}
+  - component: {fileID: 7334161888961803656}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -69229,6 +70533,7 @@ GameObject:
   - component: {fileID: 7334161888959209250}
   - component: {fileID: 7334161888959209251}
   - component: {fileID: 7334161888959209253}
+  - component: {fileID: 7334161888959209254}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -69250,6 +70555,7 @@ GameObject:
   - component: {fileID: 7334161889867475158}
   - component: {fileID: 7334161889867475159}
   - component: {fileID: 7334161889867475161}
+  - component: {fileID: 7334161889867475162}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -69271,6 +70577,7 @@ GameObject:
   - component: {fileID: 7334161889832976734}
   - component: {fileID: 7334161889832976735}
   - component: {fileID: 7334161889832976737}
+  - component: {fileID: 7334161889832976738}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -69292,6 +70599,7 @@ GameObject:
   - component: {fileID: 7334161889936693053}
   - component: {fileID: 7334161889936693054}
   - component: {fileID: 7334161889936693056}
+  - component: {fileID: 7334161889936693057}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -69313,6 +70621,7 @@ GameObject:
   - component: {fileID: 7334161889931852678}
   - component: {fileID: 7334161889931852679}
   - component: {fileID: 7334161889931852681}
+  - component: {fileID: 7334161889931852682}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -69334,6 +70643,7 @@ GameObject:
   - component: {fileID: 7334161889809276838}
   - component: {fileID: 7334161889809276839}
   - component: {fileID: 7334161889809276841}
+  - component: {fileID: 7334161889809276842}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -69355,6 +70665,7 @@ GameObject:
   - component: {fileID: 7334161889620180263}
   - component: {fileID: 7334161889620180264}
   - component: {fileID: 7334161889620180266}
+  - component: {fileID: 7334161889620180267}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -69376,6 +70687,7 @@ GameObject:
   - component: {fileID: 7334161889620829530}
   - component: {fileID: 7334161889620829531}
   - component: {fileID: 7334161889620829533}
+  - component: {fileID: 7334161889620829534}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -69397,6 +70709,7 @@ GameObject:
   - component: {fileID: 7334161889630554216}
   - component: {fileID: 7334161889630554217}
   - component: {fileID: 7334161889630554219}
+  - component: {fileID: 7334161889630554220}
   m_Layer: 0
   m_Name: metal spikes1
   m_TagString: Untagged
@@ -72263,6 +73576,23 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &7334161887818840288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4327368130318064664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!65 &7334161887822045246
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -72306,6 +73636,23 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &7334161887822045250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4327368130310784250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!65 &7334161887835255821
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -72349,6 +73696,23 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &7334161887835255825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4327368130301186249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!65 &7334161887851650884
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -72392,6 +73756,23 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &7334161887851650888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4327368130281683840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!65 &7334161887852884015
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -72435,6 +73816,23 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &7334161887852884019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4327368130285262059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!65 &7334161887867970134
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -72478,6 +73876,23 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &7334161887867970138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4327368130264696466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!65 &7334161887875217269
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -72521,6 +73936,23 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &7334161887875217273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4327368130374439857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!65 &7334161888019847048
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -72564,6 +73996,23 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &7334161888019847052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4327368130250912588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!65 &7334161888144792129
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -72607,6 +74056,23 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &7334161888144792133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4327368130105327237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!65 &7334161888199801375
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -72650,6 +74116,23 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &7334161888199801379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4327368130051006171}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!65 &7334161888202738906
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -72693,6 +74176,23 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &7334161888202738910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4327368130064705566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!65 &7334161888205784295
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -72736,6 +74236,23 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &7334161888205784299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4327368130065391651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!65 &7334161888323991063
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -72779,6 +74296,23 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &7334161888323991067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4327368129942409939}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!65 &7334161888477690753
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -72822,6 +74356,23 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &7334161888477690757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4327368130867863365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!65 &7334161888480641758
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -72865,6 +74416,23 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &7334161888480641762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4327368130709612058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!65 &7334161888862810958
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -72908,6 +74476,23 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &7334161888862810962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4327368130481493898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!65 &7334161888959209250
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -72951,6 +74536,23 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &7334161888959209254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4327368131456351206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!65 &7334161888961803652
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -72994,6 +74596,23 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &7334161888961803656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4327368131452637504}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!65 &7334161889120866381
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -73037,6 +74656,23 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &7334161889120866385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4327368131276436617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!65 &7334161889130873085
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -73080,6 +74716,23 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &7334161889130873089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4327368131284083769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!65 &7334161889166571591
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -73123,6 +74776,23 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &7334161889166571595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4327368131118439555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!65 &7334161889238200779
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -73166,6 +74836,23 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &7334161889238200783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4327368131158873359}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!65 &7334161889238206820
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -73209,6 +74896,23 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &7334161889238206824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4327368131158896032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!65 &7334161889290604196
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -73252,6 +74956,23 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &7334161889290604200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4327368130974050912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!65 &7334161889620180263
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -73295,6 +75016,23 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &7334161889620180267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4327368131851229667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!65 &7334161889620829530
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -73338,6 +75076,23 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &7334161889620829534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4327368131851616670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!65 &7334161889630554216
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -73381,6 +75136,23 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &7334161889630554220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4327368131861359788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!65 &7334161889809276838
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -73424,6 +75196,23 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &7334161889809276842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4327368131662592866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!65 &7334161889832976734
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -73467,6 +75256,23 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &7334161889832976738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4327368131524814234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!65 &7334161889867475158
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -73510,6 +75316,23 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &7334161889867475162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4327368131485895698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!65 &7334161889931852678
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -73553,6 +75376,23 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &7334161889931852682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4327368131556826946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!65 &7334161889936693053
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -73596,6 +75436,23 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -5713443408517261310, guid: 288148079ac7ca847ad58dedd451b4cb, type: 3}
+--- !u!114 &7334161889936693057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4327368131555128313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752fed3a319c8dd43a672a2d05d229eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 930671716}
+  Target: {fileID: 294823508}
+  audioSource: {fileID: 1804316778}
+  clip: {fileID: 8300000, guid: 3d8d72b339fcf4d449f3d8dd57e46bb0, type: 3}
+  volume: 1
 --- !u!65 &8599611376662964215
 BoxCollider:
   m_ObjectHideFlags: 0

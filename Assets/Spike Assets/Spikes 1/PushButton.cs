@@ -5,7 +5,6 @@ using UnityEngine;
 public class PushButton : MonoBehaviour
 {
     public Animator SpikesMove;
-    public Animator BirdAnim;
     public GameObject Button;
     public GameObject Text;
 
@@ -20,7 +19,9 @@ public class PushButton : MonoBehaviour
         if (collision.CompareTag("body"))
         {
             SpikesMove.speed = 0;
-            BirdAnim.speed = 0;
+            Button.GetComponent<MeshRenderer>().enabled = false;
+            Button.GetComponent<MeshCollider>().enabled = false;
+            Text.GetComponent<MeshRenderer>().enabled = false;
             StartCoroutine(waiter());
         }
     }
@@ -29,10 +30,6 @@ public class PushButton : MonoBehaviour
     {
         yield return new WaitForSecondsRealtime(5);
         SpikesMove.speed = 1;
-        BirdAnim.speed = 1;
-        Button.GetComponent<MeshRenderer>().enabled = false;
-        Button.GetComponent<MeshCollider>().enabled = false;
-        Text.GetComponent<MeshRenderer>().enabled = false;
         yield return new WaitForSecondsRealtime(10);
         Button.GetComponent<MeshRenderer>().enabled = true;
         Text.GetComponent<MeshRenderer>().enabled = true;
