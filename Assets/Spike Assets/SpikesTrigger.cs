@@ -9,7 +9,6 @@ public class SpikesTrigger : MonoBehaviour
     public float volume=1f;
     public Animator SpikesMove;
     public GameObject Spikes;
-    public Animator BirdMove;
     public GameObject Lock1;
     public GameObject Lock2;
     public GameObject Lock3;
@@ -46,10 +45,11 @@ public class SpikesTrigger : MonoBehaviour
                 foreach (MeshRenderer spike in list)
                     spike.enabled = true;
             }
-
-            Wall1.GetComponent<MeshRenderer>().enabled = true;
-            Wall1.GetComponent<TerrainCollider>().enabled = true;
-            Wall1.GetComponent<BoxCollider>().enabled = true;
+            if (Wall1 != null) {
+                Wall1.GetComponent<MeshRenderer>().enabled = true;
+                Wall1.GetComponent<TerrainCollider>().enabled = true;
+                Wall1.GetComponent<BoxCollider>().enabled = true;
+            }   
             if(Wall2 != null) {
                 Wall2.GetComponent<MeshRenderer>().enabled = true;
                 Wall3.GetComponent<MeshRenderer>().enabled = true;
@@ -58,10 +58,8 @@ public class SpikesTrigger : MonoBehaviour
                 Wall2.GetComponent<BoxCollider>().enabled = true;
                 Wall3.GetComponent<BoxCollider>().enabled = true;
             }
-            if(BirdMove != null) {
-                BirdMove.SetTrigger("Descend");
-            }
             if(Lock1 != null){
+                Key.GetComponent<MeshRenderer>().enabled = true;
                 Lock1.GetComponent<MeshRenderer>().enabled = true;
                 Lock2.GetComponent<MeshRenderer>().enabled = true;
                 Lock3.GetComponent<MeshRenderer>().enabled = true;
@@ -81,6 +79,12 @@ public class SpikesTrigger : MonoBehaviour
                 Stone4.GetComponent<MeshCollider>().enabled = true;
             }
         }
+    }
+
+    IEnumerator waiter()
+    {
+        yield return new WaitForSeconds(70);
+        SpikesMove.SetTrigger("Wait");
     }
 
     // Update is called once per frame

@@ -8,6 +8,7 @@ public class Lock : MonoBehaviour
     public AudioSource audioSource;
     public AudioClip clip;
     public float volume=1f;
+    public GameObject Spikes;
     public GameObject Wall;
     public GameObject Lock1;
     public GameObject Lock2;
@@ -23,6 +24,8 @@ public class Lock : MonoBehaviour
     public GameObject Stone3;
     public GameObject Stone4;
     public Transform Target;
+    public Component[] list;
+    public Animator SpikeAnim;
 
 
     // Start is called before the first frame update
@@ -44,13 +47,15 @@ public class Lock : MonoBehaviour
             Lock3.GetComponent<MeshRenderer>().enabled = false;
             Key.GetComponent<MeshRenderer>().enabled = false;
             Key.transform.position = Target.transform.position;
+            SpikeAnim.ResetTrigger("Descend");
             StartCoroutine(waiter());
         }
     }
 
     IEnumerator waiter()
     {
-        yield return new WaitForSecondsRealtime(30);
+        yield return new WaitForSeconds(70);
+        Key.GetComponent<MeshRenderer>().enabled = false;
         Lava1.GetComponent<MeshRenderer>().enabled = false;
         Lava2.GetComponent<MeshRenderer>().enabled = false;
         RockWall1.GetComponent<MeshRenderer>().enabled = false;
@@ -64,6 +69,11 @@ public class Lock : MonoBehaviour
         Stone2.GetComponent<MeshCollider>().enabled = false;
         Stone3.GetComponent<MeshCollider>().enabled = false;
         Stone4.GetComponent<MeshCollider>().enabled = false;
+        list = Spikes.GetComponentsInChildren<MeshRenderer>();
+        {
+            foreach (MeshRenderer spike in list)
+                spike.enabled = false;
+        }
     }
 
     // Update is called once per frame

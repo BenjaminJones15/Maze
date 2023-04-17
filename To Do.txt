@@ -1,9 +1,9 @@
 # Maze
 
+Teleport coords - 47.56, -0.06, 40.87
+
 Boulder:
 update graphics, make boulder look better
-Add collision sound effect in Boulder.cs
-adjust trajectory
 
 
 Starting:
@@ -17,23 +17,18 @@ Maybe update crawler 2 animation?
 Spikes:
 Add sound
 Check if all decoys/fake items are right size
-Need to add rigidbodys to everything
-Check spikes positioning
-Reset spikes after 1 minute - need to reset bird, planets, etc
-
-May need to turn off lock mesh collider
-Add all items to script etc, make sure all colliders are in place
-Add decoy elswhere. maybe under rocks, etc?
+Reset spikes after 70s - need to reset planets
 
 Add decoy in planets
 Button somewhere on one of the planets?
 
 Death:
-reset spikes immediately
+reset spikes immediately and open room again
+reset bird
+reset key + landscape
+reset boulder
 reset crawler immediately
-
-Test Spike 1
-Test Spike 3
+reset spikes, end animation immediately?
 
 Archery
 Bells

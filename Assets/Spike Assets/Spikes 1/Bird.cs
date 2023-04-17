@@ -8,6 +8,11 @@ public class Bird : MonoBehaviour
     public AudioClip clip;
     public float volume=1f;
     public GameObject Wall;
+    public GameObject MyBird;
+    public GameObject Spikes;
+    public GameObject Target;
+    public Component[] list;
+    public Animator SpikeAnim;
 
     // Start is called before the first frame update
     void Start()
@@ -23,6 +28,19 @@ public class Bird : MonoBehaviour
             Wall.GetComponent<MeshRenderer>().enabled = false;
             Wall.GetComponent<TerrainCollider>().enabled = false;
             Wall.GetComponent<BoxCollider>().enabled = false;
+            SpikeAnim.ResetTrigger("Descend");
+            StartCoroutine(waiter());
+        }
+    }
+
+    IEnumerator waiter()
+    {
+        yield return new WaitForSecondsRealtime(70);
+        MyBird.transform.position = Target.transform.position;
+        list = Spikes.GetComponentsInChildren<MeshRenderer>();
+        {
+            foreach (MeshRenderer spike in list)
+                spike.enabled = false;
         }
     }
 
