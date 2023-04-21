@@ -19,11 +19,8 @@ Add sound
 Check if all decoys/fake items are right size
 Reset spikes after 70s - need to reset planets
 
-Add decoy in planets
-Button somewhere on one of the planets?
+Add pause button?
 Sun texture is weird
-Venus texture is weird
-Make sure planet holders are right size for planets. 
 
 Death:
 reset spikes immediately and open room again
