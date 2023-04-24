@@ -20,7 +20,8 @@ Check if all decoys/fake items are right size
 Reset spikes after 70s - need to reset planets
 
 Add pause button?
-Sun texture is weird
+Sun texture is weird maybe remove fx
+Global variables static isn't working
 
 Death:
 reset spikes immediately and open room again
