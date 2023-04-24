@@ -10,6 +10,17 @@ TagManager:
   - boulder
   - bird
   - key
+  - TrackingObject
+  - Actors
+  - Sun
+  - Mercury
+  - Venus
+  - Earth
+  - Mars
+  - Jupiter
+  - Saturn
+  - Uranus
+  - Neptune
   layers:
   - Default
   - TransparentFX
