@@ -5,13 +5,26 @@ using UnityEngine;
 public class Sun : MonoBehaviour
 {
     public static bool Check = false;
+    public AudioSource ShowAudio;
     public static AudioSource audioSource;
     public AudioClip clip;
     public static float volume = 1f;
 
+    public GameObject ShowTarget;
+    public GameObject ShowSunView;
+    public GameObject ShowSunObj;
     public static GameObject Target;
     public static GameObject SunView;
     public static GameObject SunObject;
+
+    public AudioClip ShowSuccess;
+    public GameObject ShowPlanetStands;
+    public GameObject ShowWall1;
+    public GameObject ShowWall2;
+    public GameObject ShowWall3;
+    public GameObject ShowSpikes;
+    public Animator ShowSpikeAnim;
+    public Component[] ShowList;
 
     public static AudioClip SuccessClip;
     public static GameObject PlanetStands;
@@ -26,7 +39,18 @@ public class Sun : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        audioSource = ShowAudio;
+        Target = ShowTarget;
+        SunView = ShowSunView;
+        SunObject = ShowSunObj;
+        SuccessClip = ShowSuccess;
+        PlanetStands = ShowPlanetStands;
+        Wall1 = ShowWall1;
+        Wall2 = ShowWall2;
+        Wall3 = ShowWall3;
+        Spikes = ShowSpikes;
+        SpikeAnim = ShowSpikeAnim;
+        list = ShowList;
     }
 
     void OnTriggerEnter(Collider collision)

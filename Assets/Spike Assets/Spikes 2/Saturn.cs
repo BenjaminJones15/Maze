@@ -14,10 +14,18 @@ public class Saturn : MonoBehaviour
     public static GameObject RingsView;
     public static GameObject SaturnObject;
 
+    public GameObject ShowTarget;
+    public GameObject ShowRings;
+    public GameObject ShowSaturnView;
+    public GameObject ShowSaturnObj;
+
     // Start is called before the first frame update
     void Start()
     {
-
+        Target = ShowTarget;
+        RingsView = ShowRings;
+        SaturnView = ShowSaturnView;
+        SaturnObject = ShowSaturnObj;
     }
 
     void OnTriggerEnter(Collider collision)

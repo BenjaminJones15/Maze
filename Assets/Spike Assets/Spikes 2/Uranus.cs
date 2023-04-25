@@ -13,10 +13,16 @@ public class Uranus : MonoBehaviour
     public static GameObject UranusView;
     public static GameObject UranusObject;
 
+    public GameObject ShowTarget;
+    public GameObject ShowUranusView;
+    public GameObject ShowUranusObj;
+
     // Start is called before the first frame update
     void Start()
     {
-
+        Target = ShowTarget;
+        UranusView = ShowUranusView;
+        UranusObject = ShowUranusObj;
     }
 
     void OnTriggerEnter(Collider collision)

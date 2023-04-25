@@ -13,10 +13,16 @@ public class Neptune : MonoBehaviour
     public static GameObject NeptuneView;
     public static GameObject NeptuneObject;
 
+    public GameObject ShowTarget;
+    public GameObject ShowNeptuneView;
+    public GameObject ShowNeptuneObj;
+
     // Start is called before the first frame update
     void Start()
     {
-
+        Target = ShowTarget;
+        NeptuneView = ShowNeptuneView;
+        NeptuneObject = ShowNeptuneObj;
     }
 
     void OnTriggerEnter(Collider collision)

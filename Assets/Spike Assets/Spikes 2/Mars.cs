@@ -13,10 +13,16 @@ public class Mars : MonoBehaviour
     public static GameObject MarsView;
     public static GameObject MarsObject;
 
+    public GameObject ShowTarget;
+    public GameObject ShowMarsView;
+    public GameObject ShowMarsObj;
+
     // Start is called before the first frame update
     void Start()
     {
-
+        Target = ShowTarget;
+        MarsView = ShowMarsView;
+        MarsObject = ShowMarsObj;
     }
 
     void OnTriggerEnter(Collider collision)

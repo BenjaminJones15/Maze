@@ -13,10 +13,16 @@ public class Venus : MonoBehaviour
     public static GameObject VenusView;
     public static GameObject VenusObject;
 
+    public GameObject ShowTarget;
+    public GameObject ShowVenusView;
+    public GameObject ShowVenusObj;
+
     // Start is called before the first frame update
     void Start()
     {
-
+        Target = ShowTarget;
+        VenusView = ShowVenusView;
+        VenusObject = ShowVenusObj;
     }
 
     void OnTriggerEnter(Collider collision)

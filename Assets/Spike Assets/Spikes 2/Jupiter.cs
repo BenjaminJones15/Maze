@@ -13,10 +13,16 @@ public class Jupiter : MonoBehaviour
     public static GameObject JupiterView;
     public static GameObject JupiterObject;
 
+    public GameObject ShowTarget;
+    public GameObject ShowJupiterView;
+    public GameObject ShowJupiterObj;
+
     // Start is called before the first frame update
     void Start()
     {
-
+        Target = ShowTarget;
+        JupiterView = ShowJupiterView;
+        JupiterObject = ShowJupiterObj;
     }
 
     void OnTriggerEnter(Collider collision)

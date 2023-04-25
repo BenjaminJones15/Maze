@@ -13,10 +13,16 @@ public class Earth : MonoBehaviour
     public static GameObject EarthView;
     public static GameObject EarthObject;
 
+    public GameObject ShowTarget;
+    public GameObject ShowEarthView;
+    public GameObject ShowEarthObj;
+
     // Start is called before the first frame update
     void Start()
     {
-
+        Target = ShowTarget;
+        EarthView = ShowEarthView;
+        EarthObject = ShowEarthObj;
     }
 
     void OnTriggerEnter(Collider collision)

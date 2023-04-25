@@ -13,10 +13,16 @@ public class Mercury : MonoBehaviour
     public static GameObject MercuryView;
     public static GameObject MercuryObject;
 
+    public GameObject ShowTarget;
+    public GameObject ShowMercuryView;
+    public GameObject ShowMercuryObj;
+
     // Start is called before the first frame update
     void Start()
     {
-
+        Target = ShowTarget;
+        MercuryView = ShowMercuryView;
+        MercuryObject = ShowMercuryObj;
     }
 
     void OnTriggerEnter(Collider collision)
@@ -31,6 +37,9 @@ public class Mercury : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        /*
+        ShowTarget = Target;
+        ShowMercuryView = MercuryView;
+        ShowMercuryObject = MercuryObj; */
     }
 }
