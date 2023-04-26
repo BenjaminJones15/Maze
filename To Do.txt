@@ -23,10 +23,7 @@ Add pause button?
 Sun texture is weird maybe remove fx
 
 Archery:
-Added bow and maybe arrows
-Added no teleport
 Check if no teleport is ok
-Check if bow and arrow works
 Target contact with arrow
 
 Death:
@@ -36,6 +33,8 @@ reset key + landscape
 reset boulder
 reset crawler immediately
 reset spikes, end animation immediately?
+Enable archery targets again
+Or just end the game after death, have to restart. Or look into a command to restart everything
 
 Bells
 Exit upon all bells

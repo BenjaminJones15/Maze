@@ -13,7 +13,7 @@ public class CheckDone : MonoBehaviour
 
     public static void CheckComplete()
     {
-        if (Sun.Check = true && Mercury.Check == true && Venus.Check == true && Earth.Check == true && Mars.Check == true && Jupiter.Check == true && Saturn.Check == true && Uranus.Check == true && Neptune.Check == true)
+        if (Sun.Check == true && Mercury.Check == true && Venus.Check == true && Earth.Check == true && Mars.Check == true && Jupiter.Check == true && Saturn.Check == true && Uranus.Check == true && Neptune.Check == true)
         {
             Sun.audioSource.PlayOneShot(Sun.SuccessClip, Sun.volume);
             Sun.Wall1.GetComponent<MeshRenderer>().enabled = false;

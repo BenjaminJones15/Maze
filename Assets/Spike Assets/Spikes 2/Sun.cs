@@ -60,7 +60,7 @@ public class Sun : MonoBehaviour
             audioSource.PlayOneShot(clip, volume);
             Check = true;
             CheckDone.CheckComplete();
-            StartCoroutine(waiter());
+            StartCoroutine(waiter());       //move this to CheckDone? or call wait here, and then call this in a separate function?
         }
         
     }
