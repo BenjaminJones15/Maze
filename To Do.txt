@@ -22,6 +22,13 @@ Reset spikes after 70s - need to reset planets
 Add pause button?
 Sun texture is weird maybe remove fx
 
+Archery:
+Added bow and maybe arrows
+Added no teleport
+Check if no teleport is ok
+Check if bow and arrow works
+Target contact with arrow
+
 Death:
 reset spikes immediately and open room again
 reset bird
@@ -30,7 +37,6 @@ reset boulder
 reset crawler immediately
 reset spikes, end animation immediately?
 
-Archery
 Bells
 Exit upon all bells
 Falling Floors
