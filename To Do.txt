@@ -26,6 +26,14 @@ Archery:
 Check if no teleport is ok
 Target contact with arrow
 
+STD:
+Add floor texture from TextureHaven
+Bathroom theme
+Hide rubber duck in bath
+Decoy items - toilet brush, shower gel, sword, hair-dryer, car tire, plunger, bomb, burger, toothbrush, towel rack
+Big items - cupboard over sink?, bathroom floor, tiled walls,
+Just have single vase - place any item in it and check
+
 Death:
 reset spikes immediately and open room again
 reset bird
@@ -36,7 +44,5 @@ reset spikes, end animation immediately?
 Enable archery targets again
 Or just end the game after death, have to restart. Or look into a command to restart everything
 
-Bells
-Exit upon all bells
 Falling Floors
 Spot the difference
