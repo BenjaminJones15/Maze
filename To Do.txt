@@ -1,14 +1,12 @@
 # Maze
 
-Teleport coords - 47.56, -0.06, 40.87  for teleport pad 2
+Teleport coords - 47.56, -0.06, 40.87
 
 Boulder:
 update graphics, make boulder look better
 
-
 Starting:
 reset teleport platform 2 or 4
-
 
 Crawler:
 Add spawn noise - gollum voice?
@@ -18,8 +16,6 @@ Spikes:
 Add sound for spawn
 Check if all decoys/fake items are right size
 Reset spikes after 70s - need to reset planets
-Check if planet reset is working properly
-Sun texture is weird maybe remove fx
 
 Archery:
 Check if no teleport is ok
