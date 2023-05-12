@@ -7,6 +7,7 @@ public class Correct : MonoBehaviour
     public GameObject Duck;
     public AudioSource audioSource;
     public AudioClip clip;
+    public AudioClip wrong;
     public float volume = 1f;
     public GameObject Target;
     public GameObject Wall1;
@@ -14,6 +15,7 @@ public class Correct : MonoBehaviour
     public GameObject Wall3;
     public GameObject Room1;
     public GameObject Room2;
+    public GameObject Trigger;
 
     // Start is called before the first frame update
     void Start()
@@ -41,12 +43,16 @@ public class Correct : MonoBehaviour
             Room2.SetActive(false);
             StartCoroutine(waiter());
         }
+        else {
+            audioSource.PlayOneShot(wrong, volume);
+        }
     }
 
     IEnumerator waiter()
     {
         yield return new WaitForSecondsRealtime(70);
-        Duck.transform.position = Duck.transform.position;
+        Trigger.SetActive(false);
+        Duck.transform.position = Target.transform.position;
     }
 
     // Update is called once per frame

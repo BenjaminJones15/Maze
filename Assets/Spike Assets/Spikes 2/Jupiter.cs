@@ -10,18 +10,15 @@ public class Jupiter : MonoBehaviour
     public float volume = 1f;
 
     public static GameObject Target;
-    public static GameObject JupiterView;
     public static GameObject JupiterObject;
 
     public GameObject ShowTarget;
-    public GameObject ShowJupiterView;
     public GameObject ShowJupiterObj;
 
     // Start is called before the first frame update
     void Start()
     {
         Target = ShowTarget;
-        JupiterView = ShowJupiterView;
         JupiterObject = ShowJupiterObj;
     }
 
@@ -31,6 +28,7 @@ public class Jupiter : MonoBehaviour
         {
             audioSource.PlayOneShot(clip, volume);
             Check = true;
+            CheckDone.CheckComplete();
         }
     }
 

@@ -10,18 +10,15 @@ public class Mars : MonoBehaviour
     public float volume = 1f;
 
     public static GameObject Target;
-    public static GameObject MarsView;
     public static GameObject MarsObject;
 
     public GameObject ShowTarget;
-    public GameObject ShowMarsView;
     public GameObject ShowMarsObj;
 
     // Start is called before the first frame update
     void Start()
     {
         Target = ShowTarget;
-        MarsView = ShowMarsView;
         MarsObject = ShowMarsObj;
     }
 
@@ -31,6 +28,7 @@ public class Mars : MonoBehaviour
         {
             audioSource.PlayOneShot(clip, volume);
             Check = true;
+            CheckDone.CheckComplete();
         }
     }
 

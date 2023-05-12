@@ -9,9 +9,13 @@ public class SpikesTrigger : MonoBehaviour
     public float volume=1f;
     public Animator SpikesMove;
     public GameObject Spikes;
+
+    public GameObject Pole;
+
     public GameObject Lock1;
     public GameObject Lock2;
     public GameObject Lock3;
+
     public GameObject Lava1;
     public GameObject Lava2;
     public GameObject RockWall1;
@@ -22,10 +26,16 @@ public class SpikesTrigger : MonoBehaviour
     public GameObject Stone2;
     public GameObject Stone3;
     public GameObject Stone4;
+
+    public GameObject Planets;
+    public GameObject PlanetStands;
+    public bool PlanetCheck;
+
     public GameObject Player;
     public GameObject Wall1;
     public GameObject Wall2 = null;
     public GameObject Wall3 = null;
+    public GameObject Spike1Everything;
     public Component[] list;
 
     // Start is called before the first frame update
@@ -58,6 +68,9 @@ public class SpikesTrigger : MonoBehaviour
                 Wall2.GetComponent<BoxCollider>().enabled = true;
                 Wall3.GetComponent<BoxCollider>().enabled = true;
             }
+            if (Pole != null) {
+                Spike1Everything.SetActive(true);
+            }
             if(Lock1 != null){
                 Key.GetComponent<MeshRenderer>().enabled = true;
                 Lock1.GetComponent<MeshRenderer>().enabled = true;
@@ -77,6 +90,11 @@ public class SpikesTrigger : MonoBehaviour
                 Stone2.GetComponent<MeshCollider>().enabled = true;
                 Stone3.GetComponent<MeshCollider>().enabled = true;
                 Stone4.GetComponent<MeshCollider>().enabled = true;
+            }
+            if (PlanetCheck == true)
+            {
+                Planets.SetActive(true);
+                PlanetStands.SetActive(true);
             }
         }
     }

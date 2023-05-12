@@ -18,16 +18,16 @@ public class CheckDone : MonoBehaviour
             Sun.audioSource.PlayOneShot(Sun.SuccessClip, Sun.volume);
             Sun.Wall1.GetComponent<MeshRenderer>().enabled = false;
             Sun.Wall1.GetComponent<TerrainCollider>().enabled = false;
-            Sun.Wall1.GetComponent<BoxCollider>().enabled = false;
-            Sun.Wall2.GetComponent<MeshRenderer>().enabled = false;
-            Sun.Wall2.GetComponent<TerrainCollider>().enabled = false;
-            Sun.Wall2.GetComponent<BoxCollider>().enabled = false;
             Sun.Wall3.GetComponent<MeshRenderer>().enabled = false;
             Sun.Wall3.GetComponent<TerrainCollider>().enabled = false;
             Sun.Wall3.GetComponent<BoxCollider>().enabled = false;
+            Sun.Wall4.GetComponent<MeshRenderer>().enabled = false;
+            Sun.Wall4.GetComponent<TerrainCollider>().enabled = false;
+            Sun.Wall4.GetComponent<BoxCollider>().enabled = false;
             Sun.SpikeAnim.ResetTrigger("Descend");
+            Sun.Planets.SetActive(false);
+            Sun.PlanetStands.SetActive(false);
 
-            
         }
     }
 

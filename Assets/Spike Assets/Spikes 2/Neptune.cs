@@ -10,18 +10,15 @@ public class Neptune : MonoBehaviour
     public float volume = 1f;
 
     public static GameObject Target;
-    public static GameObject NeptuneView;
     public static GameObject NeptuneObject;
 
     public GameObject ShowTarget;
-    public GameObject ShowNeptuneView;
     public GameObject ShowNeptuneObj;
 
     // Start is called before the first frame update
     void Start()
     {
         Target = ShowTarget;
-        NeptuneView = ShowNeptuneView;
         NeptuneObject = ShowNeptuneObj;
     }
 
@@ -31,6 +28,7 @@ public class Neptune : MonoBehaviour
         {
             audioSource.PlayOneShot(clip, volume);
             Check = true;
+            CheckDone.CheckComplete();
         }
     }
 

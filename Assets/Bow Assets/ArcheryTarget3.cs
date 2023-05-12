@@ -17,6 +17,8 @@ public class ArcheryTarget3 : MonoBehaviour
     public static bool IsHit = false;
     public Transform targetCenter;
 
+    public GameObject ArcheryTarget;
+
     public Transform baseTransform;
     public Transform fallenDownTransform;
     public float fallTime = 0.5f;
@@ -56,6 +58,7 @@ public class ArcheryTarget3 : MonoBehaviour
             if (onceOnly)
             {
                 targetEnabled = false;
+                ArcheryTarget.SetActive(false);
             }
             CheckComplete();
 

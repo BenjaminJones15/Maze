@@ -1,12 +1,15 @@
 # Maze
 
-Teleport coords - 47.56, -0.06, 40.87
-
 Boulder:
 update graphics, make boulder look better
 
 Starting:
 reset teleport platform 2 or 4
+
+Spike 1:
+everything 1 not working.
+
+check vase for std
 
 Crawler:
 Add spawn noise - gollum voice?
@@ -14,19 +17,7 @@ Maybe update crawler 2 animation?
 
 Spikes:
 Add sound for spawn
-Check if all decoys/fake items are right size
-Reset spikes after 70s - need to reset planets
-
-Archery:
-Check if no teleport is ok
-Target contact with arrow
-
-STD:
-Teleport target for duck
-Correct sound
-Wrong sound
-Trigger for entry - set room1 and room2 active
-Add text to tell user what to do
+May need to reset spike walls for planets?
 
 Death:
 reset spikes immediately and open room again

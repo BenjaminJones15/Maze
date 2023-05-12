@@ -10,21 +10,15 @@ public class Saturn : MonoBehaviour
     public float volume = 1f;
 
     public static GameObject Target;
-    public static GameObject SaturnView;
-    public static GameObject RingsView;
     public static GameObject SaturnObject;
 
     public GameObject ShowTarget;
-    public GameObject ShowRings;
-    public GameObject ShowSaturnView;
     public GameObject ShowSaturnObj;
 
     // Start is called before the first frame update
     void Start()
     {
         Target = ShowTarget;
-        RingsView = ShowRings;
-        SaturnView = ShowSaturnView;
         SaturnObject = ShowSaturnObj;
     }
 
@@ -34,6 +28,7 @@ public class Saturn : MonoBehaviour
         {
             audioSource.PlayOneShot(clip, volume);
             Check = true;
+            CheckDone.CheckComplete();
         }
     }
 

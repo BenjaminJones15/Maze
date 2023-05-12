@@ -10,18 +10,15 @@ public class Mercury : MonoBehaviour
     public float volume = 1f;
 
     public static GameObject Target;
-    public static GameObject MercuryView;
     public static GameObject MercuryObject;
 
     public GameObject ShowTarget;
-    public GameObject ShowMercuryView;
     public GameObject ShowMercuryObj;
 
     // Start is called before the first frame update
     void Start()
     {
         Target = ShowTarget;
-        MercuryView = ShowMercuryView;
         MercuryObject = ShowMercuryObj;
     }
 
@@ -31,15 +28,13 @@ public class Mercury : MonoBehaviour
         {
             audioSource.PlayOneShot(clip, volume);
             Check = true;
+            CheckDone.CheckComplete();
         }
     }
 
     // Update is called once per frame
     void Update()
     {
-        /*
-        ShowTarget = Target;
-        ShowMercuryView = MercuryView;
-        ShowMercuryObject = MercuryObj; */
+        
     }
 }

@@ -10,18 +10,15 @@ public class Venus : MonoBehaviour
     public float volume = 1f;
 
     public static GameObject Target;
-    public static GameObject VenusView;
     public static GameObject VenusObject;
 
     public GameObject ShowTarget;
-    public GameObject ShowVenusView;
     public GameObject ShowVenusObj;
 
     // Start is called before the first frame update
     void Start()
     {
         Target = ShowTarget;
-        VenusView = ShowVenusView;
         VenusObject = ShowVenusObj;
     }
 
@@ -31,6 +28,7 @@ public class Venus : MonoBehaviour
         {
             audioSource.PlayOneShot(clip, volume);
             Check = true;
+            CheckDone.CheckComplete();
         }
     }
 
