@@ -21,6 +21,9 @@ TagManager:
   - Saturn
   - Uranus
   - Neptune
+  - projectile
+  - FxTemporaire
+  - Duck
   layers:
   - Default
   - TransparentFX

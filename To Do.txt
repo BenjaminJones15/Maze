@@ -5,34 +5,28 @@ Teleport coords - 47.56, -0.06, 40.87
 Boulder:
 update graphics, make boulder look better
 
-
 Starting:
-need to make hard lights turn off properly
-Need to give player torch
+reset teleport platform 2 or 4
 
 Crawler:
 Add spawn noise - gollum voice?
 Maybe update crawler 2 animation?
 
 Spikes:
-Add sound
+Add sound for spawn
 Check if all decoys/fake items are right size
 Reset spikes after 70s - need to reset planets
-
-Add pause button?
-Sun texture is weird maybe remove fx
 
 Archery:
 Check if no teleport is ok
 Target contact with arrow
 
 STD:
-Add floor texture from TextureHaven
-Bathroom theme
-Hide rubber duck in bath
-Decoy items - toilet brush, shower gel, sword, hair-dryer, car tire, plunger, bomb, burger, toothbrush, towel rack
-Big items - cupboard over sink?, bathroom floor, tiled walls,
-Just have single vase - place any item in it and check
+Teleport target for duck
+Correct sound
+Wrong sound
+Trigger for entry - set room1 and room2 active
+Add text to tell user what to do
 
 Death:
 reset spikes immediately and open room again
@@ -44,5 +38,3 @@ reset spikes, end animation immediately?
 Enable archery targets again
 Or just end the game after death, have to restart. Or look into a command to restart everything
 
-Falling Floors
-Spot the difference
