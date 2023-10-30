@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.17276844, g: 0.21589245, b: 0.2978263, a: 1}
+  m_IndirectSpecularColor: {r: 0.17276844, g: 0.21589246, b: 0.2978263, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -9696,6 +9696,11 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 10, y: 2.220446e-16, z: 10}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &271588233 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 150956, guid: 0c742447bd6d3ab4792475f2f0c96fcf, type: 3}
+  m_PrefabInstance: {fileID: 364431380}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &272256543
 GameObject:
   m_ObjectHideFlags: 0
@@ -53703,11 +53708,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cab87cbbec5d4b4db64aa7eb98c122d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Wall1: {fileID: 198927647}
-  Wall2: {fileID: 97366429}
-  Wall3: {fileID: 1828486033}
-  Room1: {fileID: 460408859}
-  Room2: {fileID: 1830080551}
 --- !u!114 &1346685731
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -71710,7 +71710,7 @@ MonoBehaviour:
   volume: 1
   SpikesMove: {fileID: 1145721950}
   Spikes: {fileID: 1248225095}
-  Pole: {fileID: 0}
+  Pole: {fileID: 271588233}
   Lock1: {fileID: 0}
   Lock2: {fileID: 0}
   Lock3: {fileID: 0}

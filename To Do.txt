@@ -3,12 +3,6 @@
 Boulder:
 update graphics, make boulder look better
 
-Starting:
-reset teleport platform 2 or 4
-
-Spike 1:
-everything 1 not working.
-
 check vase for std
 
 Crawler:
