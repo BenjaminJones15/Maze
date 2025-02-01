@@ -36,7 +36,7 @@ public class BellContact1 : MonoBehaviour
 
     public static void CheckComplete()
     {
-        if (BellContact1.IsRung == true && BellContact2.IsRung == true && BellContact3.IsRung == true)
+        if (BellContact1.IsRung == true && BellContact2.IsRung == true && BellContact3.IsRung == true && BellContact4.IsRung == true)
         {
             BellContact1.audioSource.PlayOneShot(ArcheryTarget1.SuccessClip, ArcheryTarget1.volume);
             BellContact1.Wall1.GetComponent<MeshRenderer>().enabled = false;
